@@ -19,23 +19,23 @@ app.get('/hola-mundo',  (req, res) => {
 
 app.get('/',  (req, res) => {
     res.render('home',{
-        nombre:'Karina Pineda',
-        titulo:'Curso de Node'
+        nombre:'web-server',
+        titulo:'Curso de Redes'
     });
   });
 
 app.get('/generic',  (req, res) => {
     res.render ('generic',{
-        nombre:'Karina Pineda',
-        titulo:'Curso de Node'
+        nombre:'web-server',
+        titulo:'Curso de Redes'
         // File(__dirname +'/public/generic.html')
     });
   });
 
 app.get('/elements',  (req, res) => {
     res.render('elements',{
-        nombre:'Karina Pineda',
-        titulo:'Curso de Node'
+        nombre:'web-server',
+        titulo:'Curso de Redes'
         // File(__dirname +'/public/elements.html')
     });
   });
